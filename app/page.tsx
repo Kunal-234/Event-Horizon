@@ -10,12 +10,7 @@ export default function Home() {
       <Hero/>
       {/* <Page2/> */}
       
-       
-      
-
-      {/* <SpotlightPreview/>
-      <ThreeDCardDemo/>
-      <AnimatedPinDemo/> */}
+  
     </div>
 
   );
