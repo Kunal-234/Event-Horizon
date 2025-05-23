@@ -1,7 +1,5 @@
 import Spline from '@splinetool/react-spline'
 import React from 'react'
-import { TracingBeam } from './ui/tracing-beam'
-
 export default function Page2() {
   return (
     <div>
