@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { ArrowRight, Menu, X } from "lucide-react";
-// import logo from '@/components/images/Logo.jpg'
+import logo from '@/components/images/Logo.jpg'
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,10 +12,10 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="px-8 py-2 relative z-50">
+      <nav className="px-8 pt-2 relative z-50 font-audiowide">
         <div className="flex justify-between items-center">
-          <div  className="text-white h-15 w-16 ">
-           {/* <img src={logo.src} alt="" /> */}
+          <div  className="text-white h-18 w-18 ">
+           <img src={logo.src} alt="" />
           </div>
           <div className="hidden md:flex space-x-4 bg-white backdrop-blur-3xl  px-10 rounded-full">
          
@@ -42,13 +42,13 @@ export default function Navbar() {
             </a>
           </div>
           <div className="md:hidden">
-            <button onClick={handleToggle} className="text-white">
+            <button onClick={handleToggle} className="text-white ">
               <div
                 className={`transform transition-transform duration-500 ${
                   isMobileMenuOpen ? "rotate-[360deg]" : "rotate-[180deg]"
                 }`}
               >
-                {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                {isMobileMenuOpen ? <X size={30} /> : <Menu size={30} />}
               </div>
             </button>
           </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
           isMobileMenuOpen ? "block" : "hidden"
         } fixed top-[72px] right-4 bg-white w-64 py-4 rounded-md shadow-lg z-50`}
       >
-        <div className="flex flex-col items-center text-center text-white space-y-4 px-4 py-2">
+        <div className="flex flex-col items-center font-audiowide text-center text-white space-y-4 px-4 py-2">
           <a href="" className="text-black px-4 py-2 rounded w-full">
             Home
           </a>
