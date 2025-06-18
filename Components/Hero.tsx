@@ -1,6 +1,7 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-import { Button } from '@/components/Button';
+import { Button } from './Button';
+
 
 
 export default function Hero() {
