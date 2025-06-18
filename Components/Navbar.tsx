@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import {  Menu, X } from "lucide-react";
 
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
