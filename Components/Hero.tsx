@@ -1,5 +1,4 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
 import Spline from '@splinetool/react-spline';
 import { Button } from '@/components/Button';
 
