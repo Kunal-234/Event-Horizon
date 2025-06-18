@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import {  Menu, X } from "lucide-react";
-import logo from '@/components/images/Logo.jpg'
+
 import Image from "next/image";
 
 export default function Navbar() {
@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className="px-8 pt-2 relative z-50 font-audiowide">
         <div className="flex justify-between items-center">
           <div  className="text-white h-18 w-18 ">
-           <Image src={logo} alt="Logo" width={72} height={72} />
+           {/* <Image src={logo} alt="Logo" width={72} height={72} /> */}
           </div>
           <div className="hidden md:flex space-x-4 bg-white backdrop-blur-3xl  px-10 rounded-full">
          
