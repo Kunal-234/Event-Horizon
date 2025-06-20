@@ -26,7 +26,7 @@ export default function Hero() {
           <Spline
             scene="https://prod.spline.design/l9-boHmFvCUHZdCW/scene.splinecode"
           />
-          <div className="absolute bottom-0 md:bottom-34 right-0 w-40 h-20 bg-black"></div>
+          <div className="absolute bottom-0 md:bottom-34 right-0 w-38 h-19 bg-black"></div>
         </div>
       </div>
     </div>
